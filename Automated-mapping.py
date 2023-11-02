@@ -25,17 +25,17 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<h1>SEO URL Redirect Mapper</h1>
+<h1>Keyword Mapping Automatisé SEO</h1>
 <b>Directions: </b>
 <ul>
-<li>Upload Legacy Crawl or URLs (xlsx)</li>
-<li>Upload New Crawl or URLs (xlsx)</li>
-<li>Download xlsx file after the app is finished (runtime may take a few minutes for large crawls)</li>
+<li>Téléversez le fichier Legacy Crawl ou URLs (xlsx)</li>
+<li>Téléversez le fichier New Crawl ou URLs (xlsx)</li>
+<li>Téléchargez le fichier xlsx après que Chuck Norris à fini de démonter ses ennemis. Si les vilains sont forts, ça risque de prendre quelques minutes.</li>
 </ul>
-<b>Requirements: </b>
+<b>Chuck ne va pas être capable de vaincre les ennemis si ceci n'est pas respecté: </b>
 <ul>
-<li>Column 1 to be named "Address" and contain full URLs, including http(s)://</li>
-<li>The following column headings need to exist in both files, even if column cells are blank:
+<li>Colonne 1 doit se nommer "Address" et contenir les URLs complets, incluant http(s)://</li>
+<li>Les titres des colonnes doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
  <ul>
  <li>"Title 1" "H1-1" "H2-1"</li>
  </ul>
@@ -220,4 +220,4 @@ if __name__ == '__main__':
 
 st.write('---')
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.write('Author: [Gaetano Randazzo](https://rablab.ca) | Agence de performance SEO - SEO performance agency | [Contact](https://rablab.ca/contact/')
+st.write('Author: [Rablab](https://rablab.ca) | Agence de performance SEO - SEO performance agency | [Contact](https://rablab.ca/contact/')
