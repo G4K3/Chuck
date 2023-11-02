@@ -9,7 +9,7 @@ from polyfuzz.models import RapidFuzz
 matcher = RapidFuzz(n_jobs=1, score_cutoff=0.80)
 model = PolyFuzz(matcher)
 
-hide_streamlit_style = """
+hide_devcontainer_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
@@ -219,5 +219,5 @@ if __name__ == '__main__':
             analyze_crawls(crawl_files)
 
 st.write('---')
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.markdown(hide_devcontainer_style, unsafe_allow_html=True)
 st.write('Author: [Rablab](https://rablab.ca) | Agence de performance SEO - SEO performance agency | [Contact](https://rablab.ca/contact/)️⚡')
