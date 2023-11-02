@@ -43,7 +43,7 @@ st.markdown("""
 </ul>
 """, unsafe_allow_html=True)
 
-legacy_file = st.file_uploader('Upload Crawl of LEGACY URLs', type='xlsx', key='legacy')
+legacy_file = st.file_uploader('Téléverser le crawl des LEGACY URLs', type='xlsx', key='legacy')
 
 input_files = []
 crawl_columns = ['Address', 'Title 1', 'H1-1', 'H2-1']
@@ -213,7 +213,7 @@ def export_dfs(match_dfs):
 
 if __name__ == '__main__':
     if legacy_file is not None:
-        new_file = st.file_uploader('Upload Crawl of NEW URLs', type='xlsx', key='new')
+        new_file = st.file_uploader('Téléversez le crawl des NEW URLs', type='xlsx', key='new')
         if new_file is not None:
             crawl_files = [legacy_file, new_file]
             analyze_crawls(crawl_files)
