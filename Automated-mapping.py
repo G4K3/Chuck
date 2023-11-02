@@ -30,11 +30,11 @@ st.markdown("""
 <ul>
 <li>Téléversez le fichier Legacy Crawl ou URLs (xlsx)</li>
 <li>Téléversez le fichier New Crawl ou URLs (xlsx)</li>
-<li>Téléchargez le fichier xlsx après que Chuck Norris à fini de démonter ses ennemis. Si les vilains sont forts, ça risque de prendre quelques minutes.</li>
+<li>Téléchargez le fichier xlsx après que Chuck ait fini de démonter ses ennemis. Si les ennemis sont nombreux, ça risque de prendre quelques minutes.</li>
 </ul>
 <b>Chuck ne va pas être capable de vaincre les ennemis si ceci n'est pas respecté: </b>
 <ul>
-<li>Colonne 1 doit se nommer "Address" et contenir les URLs complets, incluant http(s)://</li>
+<li>La colonne 1 doit se nommer "Address" et contenir les URLs complets, incluant http(s)://</li>
 <li>Les titres des colonnes doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
  <ul>
  <li>"Title 1" "H1-1" "H2-1"</li>
