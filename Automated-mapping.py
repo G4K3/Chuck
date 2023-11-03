@@ -32,7 +32,7 @@ st.markdown("""
 <p>Avec cet outil, vous serez en mesure de grandement accélérer le jumelage des URLs d'un site actuel vers sa nouvelle version.</p>
 <h3>Instructions:</h3>
 <ul>
-<li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs</li>
+<li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs. Le titre de ces documents n'a aucune importance</li>
 <li>Téléversez le fichier "Legacy Crawl" des URLs (xlsx)</li>
 <li>Téléversez le fichier "New Crawl" des URLs (xlsx)</li>
 <li>Téléchargez le fichier (xlsx) après que Chuck ait fini de démonter ses ennemis. Si ses ennemis sont nombreux, ça risque de prendre quelques minutes.</li>
