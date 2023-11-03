@@ -25,9 +25,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<h1>Mapping de Migration Automatisé SEO</h1>
+<h1>Mappingator V1.0</h1>
 <b>Directions: </b>
 <ul>
+<li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs</li>
 <li>Téléversez le fichier Legacy Crawl ou URLs (xlsx)</li>
 <li>Téléversez le fichier New Crawl ou URLs (xlsx)</li>
 <li>Téléchargez le fichier xlsx après que Chuck ait fini de démonter ses ennemis. Si les ennemis sont nombreux, ça risque de prendre quelques minutes.</li>
@@ -35,7 +36,7 @@ st.markdown("""
 <b>Chuck ne va pas être capable de vaincre les ennemis si ceci n'est pas respecté: </b>
 <ul>
 <li>La colonne 1 doit se nommer "Address" et contenir les URLs complètes, incluant http(s)://</li>
-<li>Les titres des colonnes doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
+<li>En plus de la colonne "Address" Chuck à besoin de colonnes supplémentaires. Les titres des colonnes supplémentaires doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
  <ul>
  <li>"Title 1" "H1-1" "H2-1"</li>
  </ul>
