@@ -1,3 +1,4 @@
+import logging
 import advertools as adv
 import pandas as pd
 import streamlit as st
@@ -5,6 +6,8 @@ import time
 from openpyxl import load_workbook
 from polyfuzz import PolyFuzz
 from polyfuzz.models import RapidFuzz
+
+logging.basicConfig(format="%(asctime)s — %(levelname)s — %(name)s — %(message)s", level=logging.INFO)
 
 matcher = RapidFuzz(n_jobs=1, score_cutoff=0.80)
 model = PolyFuzz(matcher)
@@ -63,8 +66,8 @@ def analyze_crawls(crawls):
 
         legacy_crawl = pd.read_excel(input_files[0][0], sheet_name=input_files[0][1][0])
          legacy_crawl = pd.read_excel(input_files[0][0], sheet_name=input_files[0][1][0])
-         print("Columns in legacy_crawl:", legacy_crawl.columns)
-         print(legacy_crawl.head())
+          logging.info("Columns in legacy_crawl: %s", legacy_crawl.columns)
+          logging.info(legacy_crawl.head())
         legacy_crawl = legacy_crawl[crawl_columns]
         new_crawl = pd.read_excel(input_files[1][0], sheet_name=input_files[1][1][0])
         new_crawl = new_crawl[crawl_columns]
