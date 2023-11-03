@@ -29,8 +29,8 @@ st.markdown("""
 <h3>Instructions:</h3>
 <ul>
 <li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs</li>
-<li>Téléversez le fichier "Legacy Crawl" ou URLs (xlsx)</li>
-<li>Téléversez le fichier "New Crawl" ou URLs (xlsx)</li>
+<li>Téléversez le fichier "Legacy Crawl" des URLs (xlsx)</li>
+<li>Téléversez le fichier "New Crawl" des URLs (xlsx)</li>
 <li>Téléchargez le fichier (xlsx) après que Chuck ait fini de démonter ses ennemis. Si ses ennemis sont nombreux, ça risque de prendre quelques minutes.</li>
 </ul>
 <h3>Chuck ne va pas être capable de vaincre ses ennemis si ceci n'est pas respecté: </h3>
