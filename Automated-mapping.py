@@ -42,6 +42,7 @@ st.markdown("""
  </ul>
 
 </ul>
+<br>
 """, unsafe_allow_html=True)
 
 legacy_file = st.file_uploader('Téléverser le crawl des LEGACY URLs', type='xlsx', key='legacy')
