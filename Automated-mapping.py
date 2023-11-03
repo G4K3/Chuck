@@ -25,7 +25,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<h1>Keyword Mapping Automatisé SEO</h1>
+<h1>URL Mapping Automatisé SEO</h1>
 <b>Directions: </b>
 <ul>
 <li>Téléversez le fichier Legacy Crawl ou URLs (xlsx)</li>
