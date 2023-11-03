@@ -48,7 +48,7 @@ st.markdown("""
 legacy_file = st.file_uploader('Téléverser le crawl des LEGACY URLs', type='xlsx', key='legacy')
 
 input_files = []
-crawl_columns = ['Address', 'Title 1', 'H1-1', 'H2-1']
+crawl_columns = ['Address','Title 1','H1-1','H2-1']
 
 
 def analyze_crawls(crawls):
