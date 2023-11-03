@@ -62,6 +62,9 @@ def analyze_crawls(crawls):
             time.sleep(0.01)
 
         legacy_crawl = pd.read_excel(input_files[0][0], sheet_name=input_files[0][1][0])
+         legacy_crawl = pd.read_excel(input_files[0][0], sheet_name=input_files[0][1][0])
+         print("Columns in legacy_crawl:", legacy_crawl.columns)
+         print(legacy_crawl.head())
         legacy_crawl = legacy_crawl[crawl_columns]
         new_crawl = pd.read_excel(input_files[1][0], sheet_name=input_files[1][1][0])
         new_crawl = new_crawl[crawl_columns]
