@@ -35,7 +35,7 @@ st.markdown("""
 </ul>
 <h3>Chuck ne va pas être capable de vaincre ses ennemis si ceci n'est pas respecté: </h3>
 <ul>
-<li>La colonne 1 doit se nommer "Address" et contenir les URLs complètes, incluant http(s)://</li>
+<li>La colonne 1 doit se nommer "Address" et contenir les URLs complètes, incluant le "http(s)://"</li>
 <li>En plus de la colonne "Address" Chuck à besoin de colonnes supplémentaires. Les titres des colonnes supplémentaires doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
  <ul>
  <li>"Title 1" "H1-1" "H2-1"</li>
