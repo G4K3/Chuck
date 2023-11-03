@@ -36,7 +36,7 @@ st.markdown("""
 <li>Téléversez le fichier "New Crawl" des URLs (xlsx)</li>
 <li>Téléchargez le fichier (xlsx) après que Chuck ait fini de démonter ses ennemis. Si ses ennemis sont nombreux, ça risque de prendre quelques minutes.</li>
 </ul>
-<h3>Chuck ne va pas être capable de vaincre ses ennemis si ceci n'est pas respecté: </h3>
+<h3>Chuck ne va pas être capable de vaincre ses ennemis si les consignes du bas ne sont pas respectées: </h3>
 <ul>
 <li>La colonne 1 doit se nommer "Address" et contenir les URLs complètes, incluant le "http(s)://"</li>
 <li>En plus de la colonne "Address" Chuck à besoin de colonnes supplémentaires. Les titres des colonnes supplémentaires doivent exister dans les deux fichiers, même si les cellules des colonnes sont vides:
