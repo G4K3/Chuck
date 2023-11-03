@@ -221,4 +221,4 @@ if __name__ == '__main__':
 
 st.write('---')
 st.markdown(hide_devcontainer_style, unsafe_allow_html=True)
-st.write('Auteur: [Rablab](https://rablab.ca) | Agence de performance SEO - SEO performance agency | [Contact](https://rablab.ca/contact/)️⚡')
+st.write('Auteur: [Rablab](https://rablab.ca) | Agence de performance SEO | [Contactez-nous!](https://rablab.ca/contact/)️⚡')
