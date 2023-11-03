@@ -29,6 +29,7 @@ st.markdown("""
 
 st.markdown("""
 <h1>Mappingator V1.0</h1>
+<p>Avec cet outil, vous serez en mesure de grandement accélérer le jumelage des URLs d'un site actuel vers sa nouvelle version.</p>
 <h3>Instructions:</h3>
 <ul>
 <li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs</li>
