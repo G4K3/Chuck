@@ -26,7 +26,7 @@ st.markdown("""
 
 st.markdown("""
 <h1>Mappingator V1.0</h1>
-<h3>Directions: </h3>
+<h3>Instructions:</h3>
 <ul>
 <li>À l'aide de Screaming Frog, bâtissez-vous deux liste d'URLs. Une avec les anciennes URLs et l'autre avec les nouvelles URLs</li>
 <li>Téléversez le fichier "Legacy Crawl" ou URLs (xlsx)</li>
